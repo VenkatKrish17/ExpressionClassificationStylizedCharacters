@@ -1,12 +1,11 @@
 Attachements 
-1. documentation
-2. plots directory with few plots of multiple iterations of learning for different models
-3. preprocess.py
+
+1. preprocess.py
 	1.Download the image data set from http://grail.cs.washington.edu/projects/deepexpr/
 	2.change the image directory inside preprocess.py and exceute the code
 	3. run a seperate execution for test set by choosing 1 character out of 6 and mentioning the directory in preprocess.py
 	4.The code creates preprocessed directory and test_set directory
-4. imagemodelling.py
+2. imagemodelling.py
 	1. Each model is created and executed using two functions. 
 		(A) a function which returns the compiled model
 			ex- first_model_cnn(weights_file)
