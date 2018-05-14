@@ -1,11 +1,14 @@
 Attachements 
 
+
 1. preprocess.py
 	1.Download the image data set from http://grail.cs.washington.edu/projects/deepexpr/
 	2.change the image directory inside preprocess.py and exceute the code
 	3. run a seperate execution for test set by choosing 1 character out of 6 and mentioning the directory in preprocess.py
 	4.The code creates preprocessed directory and test_set directory
 2. imagemodelling.py
+	generate_data_set()
+		use this method to create the data as npy files and split it into train_x, train_y, test_x, test_y .npy files 
 	1. Each model is created and executed using two functions. 
 		(A) a function which returns the compiled model
 			ex- first_model_cnn(weights_file)
@@ -23,4 +26,7 @@ Attachements
 		function which evaluates against the test set, and creates classification report, confusion matrix, learning curve
 	4. ensemble_model()
 		takes models as arguments and creates an ensemble model and evaluates it.
-	
+
+download weights file from - https://drive.google.com/drive/folders/1ynOAKo3rNEzV-blPUoL6e-NZp44L87ZK?usp=sharing
+
+
